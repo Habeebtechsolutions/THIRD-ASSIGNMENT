@@ -1,0 +1,16 @@
+@media (min-width: 260px) and (max-width: 400px) {
+
+    nav{
+        background-color: crimson;
+        /* display: none;
+        position: fixed; */
+
+
+    }
+
+    header > div > nav > ul > li > a {
+        position: 0;
+        display: flex;
+        flex-direction: column;
+    }
+}

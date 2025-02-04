@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+
+* {
+  padding: 0%;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  /* border: 2px solid black; */
+  display: flex;
+  max-width: 1000px;
+  margin: auto;
+  align-items: center;
+  justify-content: space-between;
+}
+.navitems {
+  /* border: 2px solid red; */
+  display: flex;
+  margin-left: 15px;
+  justify-content: space-between;
+  align-items: center;
+}
+.navitems a {
+  /* border: 2px solid red; */
+  margin: auto;
+  margin-block: 10px;
+  justify-content: space-between;
+  font-size: 15px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif;
+  letter-spacing: 2px;
+}
+
+body {
+  background-color: #f8fafc;
+}
+.og {
+  font-size: 30px;
+  color: #10b981;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  letter-spacing: 2px;
+}
+.moon i {
+  /* border: 2px solid blue; */
+  font-size: 30px;
+  padding: 15px;
+}
+.home {
+  /* border: 2px solid #10b981; */
+  color: #10b981;
+}
+
+nav a {
+  text-decoration: none;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: black;
+  padding: 10px;
+}
+.resume {
+  /* border: 2px solid black; */
+  color: white;
+  background-color: #10b981;
+  border-radius: 4px;
+  padding: 10px;
+  letter-spacing: 1px;
+}
+
+.card img {
+  /* border: 2px solid red; */
+  height: 100px;
+  width: 100px;
+  margin: auto;
+}
+
+.gtb {
+  height: 75vh;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  max-width: 1440px;
+  gap: 20px;
+  padding: 20px;
+  margin: auto;
+  /* padding-inline: 20px; */
+}
+
+.card {
+  background-color: aquamarine;
+  padding-top: 100px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  height: 60dvh;
+  padding-inline: 20px;
+}
+
+.experience h1 {
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 60px;
+  font-weight: lighter;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+.card p {
+  font-weight: bolder;
+}
+
+.bottom {
+  padding-bottom: 40px;
+  background-color: #1e293b;
+}
+
+.end a {
+  margin-block: 15px;
+  color: #fff;
+}
+
+.end {
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content: space-around;
+  justify-items: center;
+  /* margin-block: 20px; */
+  /* background-color: #1e293b; */
+}
+
+.end1 a {
+  /* border: 2px solid red; */
+  font-size: 20px;
+  padding: 10px;
+  padding-right: 20px;
+}
+
+.copy {
+  /* border: 2px solid green; */
+  color: white;
+  font-size: small;
+}
+.copy a span {
+  text-transform: capitalize;
+  color: red;
+  font-style: italic;
+}
+
+.twitter {
+  /* border: 2px solid red; */
+  color: #1d9bf0;
+  /* background-color: blue; */
+}
